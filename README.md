@@ -142,7 +142,56 @@ No additional installation is required for these libraries as they are part of t
 
    python Task3.py
       
+Task Summaries
+Task 1: Fetch Historical Data
+Summary:
+Historical data for NIFTY, BANKNIFTY, and FINNIFTY indices is fetched from the NSE using Python. The data is saved in CSV format and served via a Flask API.
 
+Requirements:
+
+yfinance
+pandas
+flask
+Task 2: Start Algorithm via Flask API
+Summary:
+A Flask API is created to start a timer-based algorithm running for 10 minutes. The algorithm is implemented using object-oriented programming (OOP) concepts and is run in a separate thread.
+
+Requirements:
+
+flask
+logging
+Task 3: Filter JSON Data by Last Trading Date
+Summary:
+A JSON dataset is filtered to include only the data corresponding to the most recent trading date. The filtered data is saved to a new JSON file.
+
+Requirements:
+
+Python standard libraries (json, datetime)
+
+##Setup project
+1. **Dependencies:**
+   - `yfinance`
+   - `pandas`
+   - `flask`
+   - Python standard libraries (`json`, `datetime`)
+
+2. **Setup Instructions:**
+
+   **1. Clone the Repository:**
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
+3. ##Set Up a Virtual Environment (Optional but recommended):
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+4.##Install Dependencies:
+Ensure the requirements.txt file is in the project root directory
+pip install -r requirements.txt
+
+##Development Environment
+IDE: PyCharm is used for developing and running the Python scripts.
+   
 
 
 
